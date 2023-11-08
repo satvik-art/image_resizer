@@ -35,8 +35,8 @@ def resize_images(input_folder, output_folder, target_width, target_height):
             print(f"Error processing {image_file}: {e}")
 
 if __name__ == "__main__":
-    input_folder = "C:\\Users\\91773\\Downloads\\image_resize_input"
-    output_folder = "C:\\Users\\91773\\Documents\\image_resize_output"
+    input_folder = ""
+    output_folder = ""
     target_width = int(input("enter the new width"))
     target_height = int(input("enter the new height"))
 
